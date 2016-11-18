@@ -19,7 +19,7 @@ analysis(dc fields enable) (t)
 analysis(dc fields saveOppoint) t
 analysis(dc fields hysteresis) nil
 analysis(dc fields sweep) "Component Parameter"
-analysis(dc fields dev) "/V4"
+analysis(dc fields dev) "/v1"
 analysis(dc fields deviceParam) "dc"
 analysis(dc fields mod) ""
 analysis(dc fields modelParam) ""
