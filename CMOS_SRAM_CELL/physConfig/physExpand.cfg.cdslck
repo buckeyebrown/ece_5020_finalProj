@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      goldfarb.33
+HostName                       rh020.ece.ohio-state.edu
+ProcessIdentifier              13582
+ProcessCreationTime_UTC        1479671206
+ProcessCreationTime_Readable   Sun Nov 20 14:46:46 2016 EST
+AppIdentifier                  /opt/local/cadence/IC614/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /rcc4/homes/goldfarb.33/cadence/Final/finalProject/CMOS_SRAM_CELL/physConfig/physExpand.cfg
+TimeEditLocked                 Sun Nov 20 15:02:43 2016 EST

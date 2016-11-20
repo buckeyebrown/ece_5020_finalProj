@@ -1,0 +1,16 @@
+connect ndiff nw by ndnw_via
+connect ndiff bb by ndbb_via
+connect ndiff ns by ndns_via
+connect ca m1 by ca_via
+connect ca cabar by ca_via
+connect ca rx_net by ca_via
+connect ca pc by ca_via
+connect m1 cabar by ca_via
+connect m1 rx_net by ca_via
+connect m1 pc by ca_via
+connect cabar rx_net by ca_via
+connect cabar pc by ca_via
+connect rx_net pc by ca_via
+connect v1 m1 by v1_via
+connect v1 v1bar by v1_via
+connect m1 v1bar by v1_via
