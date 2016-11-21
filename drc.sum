@@ -5,7 +5,7 @@
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.4-64b:IC6.1.4-64b.500.5 10/14/2010 07:13 (sjfql246) $
 sub-version 4.1_USR1_HF14, integ signature 2010-10-14-0644
 
-run on rh005 from /opt/local/cadence/ASSURA41-614/tools.lnx86/assura/bin/64bit/aveng on Mon Nov 21 17:51:43 2016
+run on rh004 from /opt/local/cadence/ASSURA41-614/tools.lnx86/assura/bin/64bit/aveng on Mon Nov 21 18:32:09 2016
 
 Echoing run specific file...
     ;----------------------------------------------------------------------------
@@ -20,11 +20,11 @@ Echoing run specific file...
     ;----------------------------------------------------------------------------
     
     avParameters(
-      ?inputLayout ( "df2" "Final_Project_5020" )
+      ?inputLayout ( "df2" "finalProject" )
       ?cellName "CMOS_SRAM_CELL"
       ?viewName "layout"
       ?runName "drc"
-      ?workingDirectory "./Final_Project_5020"
+      ?workingDirectory "./finalProject"
       ?rulesFile "/opt/local/cadence/design_kits/IBM/IBM_CMOS/IBM_PDK/cmrf7sf/V1.2.0.0ML/Assura/DRC/drc.rul"
       ?avrpt t
     )
@@ -34,7 +34,7 @@ Echoing run specific file...
 
                   Time Summary - Database
 
-reading DFII data. . . .      0 cpu      0 elap 1295.1M virt     274 pf
+reading DFII data. . . .      0 cpu      0 elap 1069.5M virt      27 pf
 duplicate inst removal .      0 cpu      0 elap  169.4M virt       0 pf
 cell boundary layer. . .      0 cpu      0 elap  169.4M virt       0 pf
 small cell flattening. .      0 cpu      0 elap  169.4M virt       0 pf
@@ -58,7 +58,7 @@ duplicate inst removal .      0 cpu      0 elap  171.9M virt       0 pf
 duplicate cell removal .      0 cpu      0 elap  171.9M virt       0 pf
 final VDB processing . .      0 cpu      0 elap  171.9M virt       0 pf
 -----------------------------------------------------------------------
-TOTALS (secs). . . . . .      0 cpu      0 elap 1295.1M virt     274 pf
+TOTALS (secs). . . . . .      0 cpu      0 elap 1069.5M virt      27 pf
 
 
 ************************************************************************
@@ -22406,7 +22406,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 1295.1M virt     274 pf
 
  ;# 5536
     pgate_vts = geomAnd( pgate vtsens ) 
-    cpu: 0.0   elapsed: 0   virtual: 196M   task sum: 0
+    cpu: 0.0   elapsed: 1   virtual: 196M   task sum: 0
 
  ;# 5537
     dataReduction( pgate_vts ) 
@@ -29522,7 +29522,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 1295.1M virt     274 pf
 
  ;# 7261
     drc( m2 area < 0.3136 "GR601a: M2 area > 0.3136 sq.um." ) 
-    cpu: 0.0   elapsed: 0   virtual: 196M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 196M   task sum: 0
 
  ;# 7262
     drc( m3 area < 0.3136 "GR601a: M3 area > 0.3136 sq.um." ) 
@@ -29554,7 +29554,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 1295.1M virt     274 pf
 
  ;# 7269
     drc( m2 sep < 0.28 "GR602: M2 space >= 0.280 um." ) 
-    cpu: 0.0   elapsed: 0   virtual: 196M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 196M   task sum: 0
 
  ;# 7270
     drc( m2 notch < 0.28 "GR602: M2 notch >= 0.280 um." ) 
@@ -36634,7 +36634,7 @@ TOTALS (secs). . . . . .      0 cpu      0 elap 1295.1M virt     274 pf
 
  ;# 8980
     pc_rxx = geomAnd( pc T?6898 ) 
-    cpu: 0.0   elapsed: 0   virtual: 196M   task sum: 9
+    cpu: 0.0   elapsed: 0   virtual: 196M   task sum: 8
 
  ;# 8981
     dataReduction( pc_rxx ) 
@@ -38389,7 +38389,7 @@ Total rules checked = 9405
 
 Run time =  2.00 seconds
 CPU time =  0.87 seconds
-VM HWM   =  1295 Mbytes
+VM HWM   =  1069 Mbytes
 Disk HWM =     0 Mbytes
 Disk end =     0 Mbytes
 Eman HWM =     0 Mbytes

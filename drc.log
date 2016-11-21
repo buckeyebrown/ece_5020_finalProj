@@ -6,24 +6,24 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII6.1.4-64b:IC6.1.4-64b.500.5 10/14/2010 07:13 (sjfql246) $
 sub-version 4.1_USR1_HF14, integ signature 2010-10-14-0644
 
-run on rh005 from /opt/local/cadence/ASSURA41-614/tools.lnx86/assura/bin/64bit/assura on Mon Nov 21 17:51:43 2016
+run on rh004 from /opt/local/cadence/ASSURA41-614/tools.lnx86/assura/bin/64bit/assura on Mon Nov 21 18:32:09 2016
 
 
-Starting /opt/local/cadence/ASSURA41-614//tools/assura/bin/aveng /rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/drc.rsf -restart -cdslib /rcc4/homes/brown.4414/cadence/ECE5021/cds.lib
+Starting /opt/local/cadence/ASSURA41-614//tools/assura/bin/aveng /rcc4/homes/goldfarb.33/cadence/Final/finalProject/drc.rsf -restart -cdslib /rcc4/homes/goldfarb.33/cadence/Final/cds.lib
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.4-64b:IC6.1.4-64b.500.5 10/14/2010 07:13 (sjfql246) $
 sub-version 4.1_USR1_HF14, integ signature 2010-10-14-0644
 
-run on rh005 from /opt/local/cadence/ASSURA41-614/tools.lnx86/assura/bin/64bit/aveng on Mon Nov 21 17:51:43 2016
+run on rh004 from /opt/local/cadence/ASSURA41-614/tools.lnx86/assura/bin/64bit/aveng on Mon Nov 21 18:32:09 2016
 
  Summary Report: drc.sum
- RSF           : /rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/drc.rsf
- Library Name  : Final_Project_5020
- CDSLIB Path   : "/rcc4/homes/brown.4414/cadence/ECE5021/cds.lib"
+ RSF           : /rcc4/homes/goldfarb.33/cadence/Final/finalProject/drc.rsf
+ Library Name  : finalProject
+ CDSLIB Path   : "/rcc4/homes/goldfarb.33/cadence/Final/cds.lib"
  Cell Name     : CMOS_SRAM_CELL
  View Name     : layout
  Rules File    : /opt/local/cadence/design_kits/IBM/IBM_CMOS/IBM_PDK/cmrf7sf/V1.2.0.0ML/Assura/DRC/drc.rul
- Options       : -restart -cdslib /rcc4/homes/brown.4414/cadence/ECE5021/cds.lib 
- Work Directory: /rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020
+ Options       : -restart -cdslib /rcc4/homes/goldfarb.33/cadence/Final/cds.lib 
+ Work Directory: /rcc4/homes/goldfarb.33/cadence/Final/finalProject
  Operating Mode: Legacy Mode is Off
 
 Checking out license for Assura_DRC 4.10 
@@ -40,11 +40,11 @@ Running in restart mode.
 
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.20  elap: 1  pf: 0  in: 0  out: 83256  virt: 169M  phys: 823M
+cpu: 0.20  elap: 1  pf: 0  in: 0  out: 83256  virt: 169M  phys: 827M
 
 Running the Task Processor, 1 cells, 9405 steps...
 
-Top Cell is 'CMOS_SRAM_CELL layout Final_Project_5020'
+Top Cell is 'CMOS_SRAM_CELL layout finalProject'
 
 Executing: errorLayer(bkgnd "# INFO: I/O PADS = WIREBOND #")
 
@@ -5262,17 +5262,17 @@ Executing: drc(m5fill (area > 144.0) "GRF20: M5FILL area <= 144.00 sq. um.")
 Executing: drc(mtfill (area > 144.0) "GRF20: MTFILL area <= 144.00 sq. um.")
 
 Finished running rules. Task processor time in main process:
-cpu: 0.40  elap: 0  pf: 0  in: 0  out: 2040  virt: 196M  phys: 923M
+cpu: 0.41  elap: 1  pf: 0  in: 0  out: 2040  virt: 196M  phys: 931M
 
 Started output post-processing ...
 
 Nothing to postprocess: No grid cells in the design
 
 Finished output post-processing
-cpu: 0.24  elap: 0  pf: 0  in: 0  out: 0  virt: 447M  phys: 1560M
+cpu: 0.24  elap: 0  pf: 0  in: 0  out: 0  virt: 447M  phys: 1561M
 
 Finished building the persistent database.
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6448  virt: 452M  phys: 1580M
+cpu: 0.00  elap: 0  pf: 0  in: 0  out: 6448  virt: 452M  phys: 1574M
 
 
 *****  aveng terminated normally  *****
@@ -5280,11 +5280,11 @@ cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6448  virt: 452M  phys: 1580M
 
 Finished /opt/local/cadence/ASSURA41-614//tools/assura/bin/aveng
 
-Starting /opt/local/cadence/ASSURA41-614//tools/assura/bin/avrpt /rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/drc.rsf
+Starting /opt/local/cadence/ASSURA41-614//tools/assura/bin/avrpt /rcc4/homes/goldfarb.33/cadence/Final/finalProject/drc.rsf
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII6.1.4-64b:IC6.1.4-64b.500.5 10/14/2010 07:13 (sjfql246) $
 sub-version 4.1_USR1_HF14, integ signature 2010-10-14-0644
 
-run on rh005 from /opt/local/cadence/ASSURA41-614/tools.lnx86/assura/bin/64bit/avrpt on Mon Nov 21 17:51:45 2016
+run on rh004 from /opt/local/cadence/ASSURA41-614/tools.lnx86/assura/bin/64bit/avrpt on Mon Nov 21 18:32:11 2016
 
 
    Creating Error Database 'drc'...
@@ -6116,7 +6116,7 @@ Rule      Message                                    FlatCount     RealCount
 (  821)  GR600: M3 width (min) >= 0.280 um.                  0            0
 (  822)  GR600: M4 width (min) >= 0.280 um.                  0            0
 (  823)  GR600: M5 width (min) >= 0.280 um.                  0            0
-(  824)  GR601a: M2 area > 0.3136 sq.um.                     2            2
+(  824)  GR601a: M2 area > 0.3136 sq.um.                     0            0
 (  825)  GR601a: M3 area > 0.3136 sq.um.                     0            0
 (  826)  GR601a: M4 area > 0.3136 sq.um.                     0            0
 (  827)  GR601a: M5 area > 0.3136 sq.um.                     0            0
@@ -6124,7 +6124,7 @@ Rule      Message                                    FlatCount     RealCount
 (  829)  GR601b: M3 enclosed area >= 0.705 sq.um.            0            0
 (  830)  GR601b: M4 enclosed area >= 0.705 sq.um.            0            0
 (  831)  GR601b: M5 enclosed area >= 0.705 sq.um.            0            0
-(  832)  GR602: M2 space >= 0.280 um.                        2            2
+(  832)  GR602: M2 space >= 0.280 um.                        0            0
 (  833)  GR602: M2 notch >= 0.280 um.                        0            0
 (  834)  GR602: M3 space >= 0.280 um.                        0            0
 (  835)  GR602: M3 notch >= 0.280 um.                        0            0
@@ -6649,28 +6649,26 @@ Rule      Message                                    FlatCount     RealCount
 ( 1354)  GRF20: MTFILL area <= 144.00 sq. um.                0            0
 ( 1355)  # INFO: CMRF-7sf ASSURA DRC DECK (REV DA            1            1
 --------------------------------------------------------------------------------
-Total  errors:                                               7            7
+Total  errors:                                               3            3
 --------------------------------------------------------------------------------
 
    Finished creating Error Database ...
 
-   Writing Report into /rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/drc.err ...
+   Writing Report into /rcc4/homes/goldfarb.33/cadence/Final/finalProject/drc.err ...
    Rule 2 done.
    Rule 144 done.
-   Rule 824 done.
-   Rule 832 done.
    Rule 1355 done.
 
 avrpt cpu sec:    0.30  elapsed:     1  virtual:    93M
 
 Finished /opt/local/cadence/ASSURA41-614//tools/assura/bin/avrpt
 
-Starting /opt/local/cadence/ASSURA41-614//tools/assura/bin/avcallproc /rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/drc.rsf -restart -cdslib /rcc4/homes/brown.4414/cadence/ECE5021/cds.lib
+Starting /opt/local/cadence/ASSURA41-614//tools/assura/bin/avcallproc /rcc4/homes/goldfarb.33/cadence/Final/finalProject/drc.rsf -restart -cdslib /rcc4/homes/goldfarb.33/cadence/Final/cds.lib
 
 Finished /opt/local/cadence/ASSURA41-614//tools/assura/bin/avcallproc
 
 
-Run ended: Mon Nov 21 17:51:46 2016
+Run ended: Mon Nov 21 18:32:12 2016
 
 *****  Assura terminated normally  *****
 

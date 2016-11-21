@@ -5,7 +5,7 @@ Real Error Count : 1; Flat Error Count : 1
 ================================================================================
 
 --------------------------------------------------------------------------------
-Cell Name : CMOS_SRAM_CELL layout Final_Project_5020
+Cell Name : CMOS_SRAM_CELL layout finalProject
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              1              1                 1                1
@@ -27,7 +27,7 @@ Real Error Count : 1; Flat Error Count : 1
 ================================================================================
 
 --------------------------------------------------------------------------------
-Cell Name : CMOS_SRAM_CELL layout Final_Project_5020
+Cell Name : CMOS_SRAM_CELL layout finalProject
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              1              1                 1                1
@@ -43,59 +43,13 @@ Shape               Environments Status & Error Marker
    1      X        0.020      0.000      6.640      6.340
 
 ================================================================================
-Rule No. 824 : GR601a: M2 area > 0.3136 sq.um.
-
-Real Error Count : 2; Flat Error Count : 2
-================================================================================
-
---------------------------------------------------------------------------------
-Cell Name : CMOS_SRAM_CELL layout Final_Project_5020
-
-                   Cell Errors    Real Errors   Cell Placements     Environments
-                             2              2                 1                1
---------------------------------------------------------------------------------
-Env.  Env. Placements            X1           Y1          X2           Y2
-
-  1        1                  2.650        0.800       4.700        1.310
-
-Shape               Environments Status & Error Marker 
-
-          1           X1         Y1         X2         Y2
-
-   1      X        2.650      0.800      3.100      1.310
-   2      X        3.740      0.860      4.700      1.180
-
-================================================================================
-Rule No. 832 : GR602: M2 space >= 0.280 um.
-
-Real Error Count : 2; Flat Error Count : 2
-================================================================================
-
---------------------------------------------------------------------------------
-Cell Name : CMOS_SRAM_CELL layout Final_Project_5020
-
-                   Cell Errors    Real Errors   Cell Placements     Environments
-                             2              2                 1                1
---------------------------------------------------------------------------------
-Env.  Env. Placements            X1           Y1          X2           Y2
-
-  1        1                  2.408        0.660       4.896        0.860
-
-Shape               Environments Status & Error Marker 
-
-          1           X1         Y1         X2         Y2
-
-   1      X        2.408      0.660      3.342      0.800
-   2      X        3.544      0.660      4.896      0.860
-
-================================================================================
 Rule No. 1355 : # INFO: CMRF-7sf ASSURA DRC DECK (REV DATE 25/01/2005) #
 
 Real Error Count : 1; Flat Error Count : 1
 ================================================================================
 
 --------------------------------------------------------------------------------
-Cell Name : CMOS_SRAM_CELL layout Final_Project_5020
+Cell Name : CMOS_SRAM_CELL layout finalProject
 
                    Cell Errors    Real Errors   Cell Placements     Environments
                              1              1                 1                1
