@@ -6,24 +6,24 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII6.1.4-64b:IC6.1.4-64b.500.5 10/14/2010 07:13 (sjfql246) $
 sub-version 4.1_USR1_HF14, integ signature 2010-10-14-0644
 
-run on rh020 from /opt/local/cadence/ASSURA41-614/tools.lnx86/assura/bin/64bit/assura on Sun Nov 20 16:26:34 2016
+run on rh005 from /opt/local/cadence/ASSURA41-614/tools.lnx86/assura/bin/64bit/assura on Mon Nov 21 17:51:43 2016
 
 
-Starting /opt/local/cadence/ASSURA41-614//tools/assura/bin/aveng /rcc4/homes/goldfarb.33/cadence/Final/finalProject/drc.rsf -restart -cdslib /rcc4/homes/goldfarb.33/cadence/Final/cds.lib
+Starting /opt/local/cadence/ASSURA41-614//tools/assura/bin/aveng /rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/drc.rsf -restart -cdslib /rcc4/homes/brown.4414/cadence/ECE5021/cds.lib
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.4-64b:IC6.1.4-64b.500.5 10/14/2010 07:13 (sjfql246) $
 sub-version 4.1_USR1_HF14, integ signature 2010-10-14-0644
 
-run on rh020 from /opt/local/cadence/ASSURA41-614/tools.lnx86/assura/bin/64bit/aveng on Sun Nov 20 16:26:34 2016
+run on rh005 from /opt/local/cadence/ASSURA41-614/tools.lnx86/assura/bin/64bit/aveng on Mon Nov 21 17:51:43 2016
 
  Summary Report: drc.sum
- RSF           : /rcc4/homes/goldfarb.33/cadence/Final/finalProject/drc.rsf
- Library Name  : finalProject
- CDSLIB Path   : "/rcc4/homes/goldfarb.33/cadence/Final/cds.lib"
+ RSF           : /rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/drc.rsf
+ Library Name  : Final_Project_5020
+ CDSLIB Path   : "/rcc4/homes/brown.4414/cadence/ECE5021/cds.lib"
  Cell Name     : CMOS_SRAM_CELL
  View Name     : layout
  Rules File    : /opt/local/cadence/design_kits/IBM/IBM_CMOS/IBM_PDK/cmrf7sf/V1.2.0.0ML/Assura/DRC/drc.rul
- Options       : -restart -cdslib /rcc4/homes/goldfarb.33/cadence/Final/cds.lib 
- Work Directory: /rcc4/homes/goldfarb.33/cadence/Final/finalProject
+ Options       : -restart -cdslib /rcc4/homes/brown.4414/cadence/ECE5021/cds.lib 
+ Work Directory: /rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020
  Operating Mode: Legacy Mode is Off
 
 Checking out license for Assura_DRC 4.10 
@@ -40,11 +40,11 @@ Running in restart mode.
 
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.21  elap: 2  pf: 0  in: 0  out: 83256  virt: 169M  phys: 822M
+cpu: 0.20  elap: 1  pf: 0  in: 0  out: 83256  virt: 169M  phys: 823M
 
 Running the Task Processor, 1 cells, 9405 steps...
 
-Top Cell is 'CMOS_SRAM_CELL layout finalProject'
+Top Cell is 'CMOS_SRAM_CELL layout Final_Project_5020'
 
 Executing: errorLayer(bkgnd "# INFO: I/O PADS = WIREBOND #")
 
@@ -5262,7 +5262,7 @@ Executing: drc(m5fill (area > 144.0) "GRF20: M5FILL area <= 144.00 sq. um.")
 Executing: drc(mtfill (area > 144.0) "GRF20: MTFILL area <= 144.00 sq. um.")
 
 Finished running rules. Task processor time in main process:
-cpu: 0.40  elap: 0  pf: 0  in: 0  out: 2040  virt: 196M  phys: 922M
+cpu: 0.40  elap: 0  pf: 0  in: 0  out: 2040  virt: 196M  phys: 923M
 
 Started output post-processing ...
 
@@ -5272,7 +5272,7 @@ Finished output post-processing
 cpu: 0.24  elap: 0  pf: 0  in: 0  out: 0  virt: 447M  phys: 1560M
 
 Finished building the persistent database.
-cpu: 0.01  elap: 1  pf: 0  in: 0  out: 6456  virt: 452M  phys: 1580M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6448  virt: 452M  phys: 1580M
 
 
 *****  aveng terminated normally  *****
@@ -5280,11 +5280,11 @@ cpu: 0.01  elap: 1  pf: 0  in: 0  out: 6456  virt: 452M  phys: 1580M
 
 Finished /opt/local/cadence/ASSURA41-614//tools/assura/bin/aveng
 
-Starting /opt/local/cadence/ASSURA41-614//tools/assura/bin/avrpt /rcc4/homes/goldfarb.33/cadence/Final/finalProject/drc.rsf
+Starting /opt/local/cadence/ASSURA41-614//tools/assura/bin/avrpt /rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/drc.rsf
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII6.1.4-64b:IC6.1.4-64b.500.5 10/14/2010 07:13 (sjfql246) $
 sub-version 4.1_USR1_HF14, integ signature 2010-10-14-0644
 
-run on rh020 from /opt/local/cadence/ASSURA41-614/tools.lnx86/assura/bin/64bit/avrpt on Sun Nov 20 16:26:38 2016
+run on rh005 from /opt/local/cadence/ASSURA41-614/tools.lnx86/assura/bin/64bit/avrpt on Mon Nov 21 17:51:45 2016
 
 
    Creating Error Database 'drc'...
@@ -5556,7 +5556,7 @@ Rule      Message                                    FlatCount     RealCount
 (  261)  GRRX8b: (BF not touching NW) to adjacent            0            0
 (  262)  GRRX8d: ((BF touch NW) touch NWASP) to a            0            0
 (  263)  GRRX23: RX(over BB, not IND_FLT, not PC)            0            0
-(  264)  GR100: PC width >= 0.180 um.                        1            1
+(  264)  GR100: PC width >= 0.180 um.                        0            0
 (  265)  GR101a: PC area >= 0.203 sq. um.                    0            0
 (  266)  GR101b: PC enclosed area >= 0.291 sq. um            0            0
 (  267)  GR102a: PC(not over RX) space (run <= 0.            0            0
@@ -5564,15 +5564,15 @@ Rule      Message                                    FlatCount     RealCount
 (  269)  GR102a: PC(not over RX) notch >= 0.240 u            0            0
 (  270)  GR102b: PC to PC (including PCEND) (not             0            0
 (  271)  GR104a/b: PC(over RX) space >= 0.240 um.            0            0
-(  272)  GR110: RX overlap past PC >= 0.280 um.              1            1
+(  272)  GR110: RX overlap past PC >= 0.280 um.              0            0
 (  273)  GR110: RX overlap past PC >= 0.280 um.(c            0            0
 (  274)  GR110: RX overlap past PC >= 0.280 um.(4            0            0
 (  275)  GR111: PC overlap past RX >= 0.240 um.              0            0
 (  276)  GR111: PC overlap past RX >= 0.240 um.(c            0            0
-(  277)  GR112: PC overlap past RX (within 0.08 o            5            5
-(  278)  GR114: PC to RX corner >= 0.060 um.                 8            8
+(  277)  GR112: PC overlap past RX (within 0.08 o            0            0
+(  278)  GR114: PC to RX corner >= 0.060 um.                 0            0
 (  279)  GR114: PC abutting RX corner found!                 0            0
-(  280)  GR115: PC corner to RX >= 0.080 um.                 2            2
+(  280)  GR115: PC corner to RX >= 0.080 um.                 0            0
 (  281)  GR115: RX abutting PC corner found!                 0            0
 (  282)  GR119: PC vertex(inside) within RX >= 0.            0            0
 (  283)  GR119: PC vertex(outside) within RX >= 0            0            0
@@ -5618,21 +5618,21 @@ Rule      Message                                    FlatCount     RealCount
 (  323)  GR250: NW(drawn or generated) width >= 0            0            0
 (  324)  GR252c: RX shape between (NW shapes < 1.            0            0
 (  325)  GRNWASP1: NW straddling NWASP found!                0            0
-(  326)  GR252a: NW(not over NWASP) space >= 1.28            1            1
+(  326)  GR252a: NW(not over NWASP) space >= 1.28            0            0
 (  327)  GR252a: NW(not over NWASP) to NW(over NW            0            0
 (  328)  GR252b: NW(over NWASP) space (run  < 0.7            0            0
 (  329)  GR252b: NW(over NWASP) space (run >= 0.7            0            0
 (  330)  GR252b: NW notch (run  < 0.70) >= 1.280             0            0
 (  331)  GR252b: NW notch (run >= 0.70) >= 0.840             0            0
 (  332)  GR260: (RX within BP) straddling NW foun            0            0
-(  333)  GR260: (RX within BP) within NW >= 0.420            8            8
+(  333)  GR260: (RX within BP) within NW >= 0.420            0            0
 (  334)  GR260a: (RX within BP) within NW(>=40.0)            0            0
 (  335)  GRCP260: (RX(P+) not touching NW) must b            0            0
 (  336)  GRCP260c: RX(N contact) within BB >= 1.2            0            0
 (  337)  GR261f: RX(NWcont) overlap of NW >= 0.28            0            0
 (  338)  GR262: RX(NWcont) overlap area with NW >            0            0
 (  339)  GR262b: (RX within RN) intersect area wi            0            0
-(  340)  GR262f: RX(NWcont) overlap area with NW             4            4
+(  340)  GR262f: RX(NWcont) overlap area with NW             0            0
 (  341)  GR265: RX(outside BP) to adjacent NW (di            0            0
 (  342)  GR265a: RX(outside BP) to adjacent NW(>=            0            0
 (  343)  GRCP265b: (RX outside BP) to adj BB (dif            0            0
@@ -5711,7 +5711,7 @@ Rule      Message                                    FlatCount     RealCount
 (  416)  GR358f: Layout will cause: BN space >= 0            0            0
 (  417)  GR358f: Layout will cause: BN notch >= 0            0            0
 (  418)  GR358g: Layout will cause: BF width >= 0            0            0
-(  419)  GR358h: Layout will cause: BF space (not            1            1
+(  419)  GR358h: Layout will cause: BF space (not            0            0
 (  420)  GR358h: Layout will cause: BF notch (not            0            0
 (  421)  GR358i: Layout will cause: PH space >= 0            0            0
 (  422)  GR358i: Layout will cause: PH notch >= 0            0            0
@@ -5731,8 +5731,8 @@ Rule      Message                                    FlatCount     RealCount
 (  436)  GRBP3: BP touching BB found!                        0            0
 (  437)  GR372: (BP overlap of RX) not over NW >=            0            0
 (  438)  GR372a: Substrate contact area >= 0.147             0            0
-(  439)  GR373: (RX overlap past BP) over NW  >=             4            4
-(  440)  GR373a: Well contact area >= 0.147 sq.um            4            4
+(  439)  GR373: (RX overlap past BP) over NW  >=             0            0
+(  440)  GR373a: Well contact area >= 0.147 sq.um            0            0
 (  441)  GR374: RX straddling NW (butted n-well c            0            0
 (  442)  GR374: RX within NW (butted n-well cont)            0            0
 (  443)  GR378: (BP inter RX) to adj ((PC interse            0            0
@@ -6051,7 +6051,7 @@ Rule      Message                                    FlatCount     RealCount
 (  756)  GR500: M1 width (min) >= 0.240 um.                  0            0
 (  757)  GR501a: M1 area >= 0.172 sq.um.                     0            0
 (  758)  GR501b: M1 enclosed area >= 0.705 sq. um            0            0
-(  759)  GR502: M1 space >= 0.200 um.                        1            1
+(  759)  GR502: M1 space >= 0.200 um.                        0            0
 (  760)  GR502: M1 notch >= 0.200 um.                        0            0
 (  761)  GR504: M1(>1.48) to M1 space (run <= 0)             0            0
 (  762)  GR504: M1(>1.48) to M1(<=1.48) space (ru            0            0
@@ -6116,7 +6116,7 @@ Rule      Message                                    FlatCount     RealCount
 (  821)  GR600: M3 width (min) >= 0.280 um.                  0            0
 (  822)  GR600: M4 width (min) >= 0.280 um.                  0            0
 (  823)  GR600: M5 width (min) >= 0.280 um.                  0            0
-(  824)  GR601a: M2 area > 0.3136 sq.um.                     0            0
+(  824)  GR601a: M2 area > 0.3136 sq.um.                     2            2
 (  825)  GR601a: M3 area > 0.3136 sq.um.                     0            0
 (  826)  GR601a: M4 area > 0.3136 sq.um.                     0            0
 (  827)  GR601a: M5 area > 0.3136 sq.um.                     0            0
@@ -6124,7 +6124,7 @@ Rule      Message                                    FlatCount     RealCount
 (  829)  GR601b: M3 enclosed area >= 0.705 sq.um.            0            0
 (  830)  GR601b: M4 enclosed area >= 0.705 sq.um.            0            0
 (  831)  GR601b: M5 enclosed area >= 0.705 sq.um.            0            0
-(  832)  GR602: M2 space >= 0.280 um.                        0            0
+(  832)  GR602: M2 space >= 0.280 um.                        2            2
 (  833)  GR602: M2 notch >= 0.280 um.                        0            0
 (  834)  GR602: M3 space >= 0.280 um.                        0            0
 (  835)  GR602: M3 notch >= 0.280 um.                        0            0
@@ -6649,38 +6649,28 @@ Rule      Message                                    FlatCount     RealCount
 ( 1354)  GRF20: MTFILL area <= 144.00 sq. um.                0            0
 ( 1355)  # INFO: CMRF-7sf ASSURA DRC DECK (REV DA            1            1
 --------------------------------------------------------------------------------
-Total  errors:                                              43           43
+Total  errors:                                               7            7
 --------------------------------------------------------------------------------
 
    Finished creating Error Database ...
 
-   Writing Report into /rcc4/homes/goldfarb.33/cadence/Final/finalProject/drc.err ...
+   Writing Report into /rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/drc.err ...
    Rule 2 done.
    Rule 144 done.
-   Rule 264 done.
-   Rule 272 done.
-   Rule 277 done.
-   Rule 278 done.
-   Rule 280 done.
-   Rule 326 done.
-   Rule 333 done.
-   Rule 340 done.
-   Rule 419 done.
-   Rule 439 done.
-   Rule 440 done.
-   Rule 759 done.
+   Rule 824 done.
+   Rule 832 done.
    Rule 1355 done.
 
-avrpt cpu sec:    0.30  elapsed:     0  virtual:    93M
+avrpt cpu sec:    0.30  elapsed:     1  virtual:    93M
 
 Finished /opt/local/cadence/ASSURA41-614//tools/assura/bin/avrpt
 
-Starting /opt/local/cadence/ASSURA41-614//tools/assura/bin/avcallproc /rcc4/homes/goldfarb.33/cadence/Final/finalProject/drc.rsf -restart -cdslib /rcc4/homes/goldfarb.33/cadence/Final/cds.lib
+Starting /opt/local/cadence/ASSURA41-614//tools/assura/bin/avcallproc /rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/drc.rsf -restart -cdslib /rcc4/homes/brown.4414/cadence/ECE5021/cds.lib
 
 Finished /opt/local/cadence/ASSURA41-614//tools/assura/bin/avcallproc
 
 
-Run ended: Sun Nov 20 16:26:38 2016
+Run ended: Mon Nov 21 17:51:46 2016
 
 *****  Assura terminated normally  *****
 
