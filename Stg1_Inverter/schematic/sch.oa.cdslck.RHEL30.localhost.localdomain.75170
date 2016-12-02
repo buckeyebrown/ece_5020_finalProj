@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      brown.4414
+HostName                       localhost.localdomain
+ProcessIdentifier              75170
+ProcessCreationTime_UTC        1479868118
+ProcessCreationTime_Readable   Tue Nov 22 21:28:38 2016 EST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/Inverter/schematic/sch.oa.cdslck
+TimeEditLocked                 Tue Nov 22 22:18:40 2016 EST

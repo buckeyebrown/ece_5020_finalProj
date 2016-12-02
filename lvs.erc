@@ -1,0 +1,13 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'CMOS_SRAM_CELL layout Final_Project_5020':
+  info: Assign pin label "WL" at (1.170, 0.270) to layer `m1_resistive'.
+  info: Assign pin label "NOTBL" at (2.600, 0.990) to layer `m1_resistive'.
+  info: Assign pin label "BL" at (3.890, 1.020) to layer `m1_resistive'.
+  info: Assign pin label "GND" at (3.880, 2.030) to layer `m1_resistive'.
+  info: Assign pin label "VDD" at (3.230, 5.650) to layer `m1_resistive'.
+  info: Assign pin label "SUB" at (3.620, 3.070) to layer `substrate_text'.
+
+***** End of Label Report *****
+

@@ -1,0 +1,13 @@
+allVectorFiles nil
+VectorFile nil
+allStimulusFiles nil
+definitionFiles nil
+includePath "/opt/local/cadence/design_kits/IBM/IBM_CMOS/IBM_PDK/cmrf7sf/relAM/Spectre/models"
+EVcdInfoFile ""
+VcdFile ""
+hlcheck "off"
+stimulusFile nil
+allIncludedPaths ((t "/opt/local/cadence/design_kits/IBM/IBM_CMOS/IBM_PDK/cmrf7sf/relAM/Spectre/models"))
+EVcdFile ""
+allDefinitionFiles nil
+VcdInfoFile ""

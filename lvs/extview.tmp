@@ -1,0 +1,85 @@
+*
+*
+*
+*                       LINUX           Tue Nov 22 13:18:02 2016
+*
+*
+*
+*  PROGRAM  advgen
+*
+*  Name           : advgen - QRC - (64-bit)
+*  Version        : 9.1.4-p007
+*  Build Date     : Thu Nov  4 23:37:49 PDT 2010
+*
+*  HSPICE LIBRARY
+*
+*
+*
+*
+*       SUBCIRCUIT DEFINITIONS
+*
+.SUBCKT subcx#20auLvs#20cmrf7sf SUBCON sub
+.ENDS
+*
+
+*
+.SUBCKT CMOS_SRAM_CELL VDD GND BL NOTBL WL SUB
+*
+*
+*  caps2d version: 10
+*
+*       SUBCIRCUIT CALLS
+*
+XavD206_1 GND SUB subcx#20auLvs#20cmrf7sf
++ w=8e-07 p=3.2e-06 l=8e-07 a=6.4e-13
+*
+*       TRANSISTOR CARDS
+*
+*
+MavD20_1	GND	avC7	avC8	SUB	nfetx#20auLvs#20cmrf7sf
++ L=0.18U	W=0.27U
++ AD=0.4221P	AS=0.3978P	PD=2.86U	PS=2.68U
++ wt=2.7e-07 stis=2 rf=0 psp=0 par=1 nrs=1.2381 nrd=1.2381 nf=1 mSwitch=0 m=1 gns=0 gcon=1 blockParasiticsBetween="PC sub"
+MavD20_2	NOTBL	WL	avC8	SUB	nfetx#20auLvs#20cmrf7sf
++ L=0.18U	W=0.22U
++ AD=0.393P	AS=0.4546P	PD=2.7U	PS=3.26U
++ wt=2.2e-07 stis=2 rf=0 psp=0 par=1 nrs=1.625 nrd=1.625 nf=1 mSwitch=0 m=1 gns=0 gcon=1 blockParasiticsBetween="PC sub"
+MavD20_3	avC7	avC8	GND	SUB	nfetx#20auLvs#20cmrf7sf
++ L=0.18U	W=0.27U
++ AD=0.3924P	AS=0.3978P	PD=2.64U	PS=2.68U
++ wt=2.7e-07 stis=2 rf=0 psp=0 par=1 nrs=1.2381 nrd=1.2381 nf=1 mSwitch=0 m=1 gns=0 gcon=1 blockParasiticsBetween="PC sub"
+MavD20_4	avC7	WL	BL	SUB	nfetx#20auLvs#20cmrf7sf
++ L=0.18U	W=0.22U
++ AD=0.4128P	AS=0.3952P	PD=2.88U	PS=2.72U
++ wt=2.2e-07 stis=2 rf=0 psp=0 par=1 nrs=1.625 nrd=1.625 nf=1 mSwitch=0 m=1 gns=0 gcon=1 blockParasiticsBetween="PC sub"
+MavD41_1	VDD	avC7	avC8	VDD	pfetx#20auLvs#20cmrf7sf
++ L=0.18U	W=0.38U
++ AD=0.228P	AS=0.2321P	PD=1.96U	PS=1.98U
++ wt=3.8e-07 rf=0 psp=0 par=1 nrs=0.8125 nrd=0.8125 nf=1 mSwitch=0 m=1 gns=0 gcon=1 blockParasiticsBetween="PC sub"
+MavD41_2	avC7	avC8	VDD	VDD	pfetx#20auLvs#20cmrf7sf
++ L=0.18U	W=0.38U
++ AD=0.228P	AS=0.228P	PD=1.96U	PS=1.96U
++ wt=3.8e-07 rf=0 psp=0 par=1 nrs=0.8125 nrd=0.8125 nf=1 mSwitch=0 m=1 gns=0 gcon=1 blockParasiticsBetween="PC sub"
+*
+*
+*       CAP/DIODE CARDS
+*
+*
+DavD334_1	VDD	SUB	diodenwx#20auLvs#20cmrf7sf	9.9144P 
++ perim=1.756e-05 pcp=5.07484e-15 c=8.42724e-16
+*
+*
+*       CAPACITOR CARDS
+*
+*
+C1	VDD	SUB	1.26294E-15	$X=3.2375 $Y=5.46
+C2	GND	SUB	1.86496E-15	$X=3.3115 $Y=2.9845
+C3	BL	SUB	1.10724E-15	$X=4.2555 $Y=1.5545
+C4	NOTBL	SUB	1.12757E-15	$X=2.465 $Y=1.547
+C5	WL	SUB	1.36433E-15	$X=3.1975 $Y=0.5075
+C6	avC8	SUB	1.95082E-15	$X=2.9875 $Y=3.596
+C7	avC7	SUB	1.73862E-15	$X=3.761 $Y=3.657
+*
+*
+.ENDS CMOS_SRAM_CELL
+*

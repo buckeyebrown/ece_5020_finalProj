@@ -1,0 +1,90 @@
+================================================================================
+Rule No. 72 : nw_StampErrorConnect
+
+Real Error Count : 2; Flat Error Count : 2
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : CMOS_SRAM_CELL layout Final_Project_5020
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             2              2                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                  0.340        4.840       6.440        5.500
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        0.340      4.900      0.950      5.500
+   2      X        5.600      4.840      6.440      5.440
+
+================================================================================
+Rule No. 74 : nw_StampErrorMult
+
+Real Error Count : 1; Flat Error Count : 1
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : CMOS_SRAM_CELL layout Final_Project_5020
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                  0.040        4.550       6.640        6.280
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        0.040      4.550      6.640      6.280
+
+================================================================================
+Rule No. 78 : well_StampErrorConnect
+
+Real Error Count : 2; Flat Error Count : 2
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : CMOS_SRAM_CELL layout Final_Project_5020
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             2              2                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                  0.340        4.840       6.440        5.500
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        0.340      4.900      0.950      5.500
+   2      X        5.600      4.840      6.440      5.440
+
+================================================================================
+Rule No. 80 : well_StampErrorMult
+
+Real Error Count : 1; Flat Error Count : 1
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : CMOS_SRAM_CELL layout Final_Project_5020
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                  0.040        4.550       6.640        6.280
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        0.040      4.550      6.640      6.280
+

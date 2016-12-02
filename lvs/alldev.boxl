@@ -1,0 +1,6 @@
+# 5
+perim=1.756e-05 pcp=5.07484e-15 c=8.42724e-16
+wt=3.8e-07 rf=0 psp=0 par=1 nrs=0.8125 nrd=0.8125 nf=1 mSwitch=0 m=1 gns=0 gcon=1 blockParasiticsBetween="PC sub"
+wt=2.7e-07 stis=2 rf=0 psp=0 par=1 nrs=1.2381 nrd=1.2381 nf=1 mSwitch=0 m=1 gns=0 gcon=1 blockParasiticsBetween="PC sub"
+wt=2.2e-07 stis=2 rf=0 psp=0 par=1 nrs=1.625 nrd=1.625 nf=1 mSwitch=0 m=1 gns=0 gcon=1 blockParasiticsBetween="PC sub"
+$This is end of the device boxl file$

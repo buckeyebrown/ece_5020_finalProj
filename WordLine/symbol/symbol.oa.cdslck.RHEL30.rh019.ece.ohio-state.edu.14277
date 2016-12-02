@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      brown.4414
+HostName                       rh019.ece.ohio-state.edu
+ProcessIdentifier              14277
+ProcessCreationTime_UTC        1480703598
+ProcessCreationTime_Readable   Fri Dec  2 13:33:18 2016 EST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/WordLine/symbol/symbol.oa.cdslck
+TimeEditLocked                 Fri Dec  2 14:58:14 2016 EST

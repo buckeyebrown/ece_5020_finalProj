@@ -1,0 +1,34 @@
+#
+# OPTION COMMAND FILE created by Cadence Extraction QRC Version 9.1.4-p008
+#
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "SUB"
+extract \
+	 -selection "all" \
+	 -type "c_only_decoupled"
+extraction_setup \
+	 -net_name_space "LAYOUT"
+input_db -type assura \
+	 -design_cell_name "CMOS_SRAM_CELL layout Final_Project_5020" \
+	 -directory_name "/rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020" \
+	 -format "DFII" \
+	 -library_definitions_file "/rcc4/homes/brown.4414/cadence/ECE5021/cds.lib" \
+	 -run_name "lvs"
+output_db -type extracted_view \
+	 -cap_component "pcapacitor" \
+	 -cap_property_name "c" \
+	 -enable_cellview_check false \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "false" \
+	 -include_parasitic_res_model "false" \
+	 -include_res_model "false" \
+	 -view_name "av_extracted"
+output_setup \
+	 -directory_name "/rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020" \
+	 -temporary_directory_name "lvs"
+process_technology \
+	 -technology_library_file "/rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/lvs/_auto_qrc_techlib.defs" \
+	 -technology_name "_auto_qrc_tech"
+
+

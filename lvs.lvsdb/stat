@@ -1,0 +1,6 @@
+; Assura generated file -- DO NOT EDIT --
+; Do NOT rely on the content of this file, it may change.
+;
+2 filter reduce swap match
+1 0 ( ( "nfet" "nfet" "Generic" 0 0 0 0) ( "nfet_m0" "nfet_m0" "Generic" 4 4 4 4) ( "pfet" "pfet" "Generic" 0 0 0 0) ( "pfet_m0" "pfet_m0" "Generic" 2 2 2 2) ( "subc" "subc" "Generic" 1 1 1 1))
+1 1 ( ( "nfet" "nfet" "Generic" 0 0 0 0) ( "nfet_m0" "nfet_m0" "Generic" 4 4 4 4) ( "pfet" "pfet" "Generic" 0 0 0 0) ( "pfet_m0" "pfet_m0" "Generic" 2 2 2 2) ( "subc" "subc" "Generic" 1 1 1 1))

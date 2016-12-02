@@ -1,0 +1,35 @@
+@(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.4-64b:IC6.1.4-64b.500.5 10/14/2010 07:16 (sjfql246) $
+sub-version 4.1_USR1_HF14, integ signature 2010-10-14-0644
+run on rh019 at Tue Nov 22 13:14:01 2016
+
+Schematic                                  | Layout                                  | Status
+-----------------------------------------------------------------------------------------------
+CMOS_SRAM_CELL schematic Final_Project_5020| CMOS_SRAM_CELL layout Final_Project_5020| matched
+
+Schematic and Layout Match
+
+Schematic:
+  Library:Final_Project_5020
+  Cell   :CMOS_SRAM_CELL
+  View   :schematic
+
+Layout:
+  Library:Final_Project_5020
+  Cell   :CMOS_SRAM_CELL
+  View   :layout
+
+
+
+Extraction  Information
+--------------------
+     0 cells have 0 mal-formed device problems
+     0 cells have 0 label short problems
+     0 cells have 0 label open problems
+
+Mismatch  Information
+--------------------
+     0 cells have 0 Net mismatches
+     0 cells have 0 Device mismatches
+     0 cells have 0 Pin mismatches
+     0 cells have 0 Parameter mismatches
+

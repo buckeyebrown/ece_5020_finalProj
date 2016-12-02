@@ -1,0 +1,3 @@
+***SUBCKT-DEFINITIONS***
+.SUBCKT subc SUBCON sub
+.ENDS
