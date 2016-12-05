@@ -1,2 +1,2 @@
-inlist: SXCUT_TEXT,RX_pin_text,PC_pin_text,PC_pin_text,M1_pin_text
-outlist: SXCUT_TEXT_nr_labs,RX_pin_text_nr_labs,PC_pin_text_nr_labs,L1T0,L2T0
+inlist: M3_pin_text
+outlist: L1T0

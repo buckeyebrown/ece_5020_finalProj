@@ -92,12 +92,11 @@ if(isFile("local.rsf") then
 
 avParameters(
   ?inputLayout ( "df2" "Final_Project_5020" )
-  ?cellName "CMOS_SRAM_CELL"
+  ?cellName "resistorSchematic"
   ?viewName "layout"
   ?runName "lvs"
   ?workingDirectory "./Final_Project_5020"
   ?rulesFile "/opt/local/cadence/design_kits/IBM/IBM_CMOS/IBM_PDK/cmrf7sf/V2.0.1.0AM/Assura/LVS/extract7.rul"
-  ?set ("resimulate_extracted")
   ?avrpt t
 )
 

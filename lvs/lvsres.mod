@@ -1,0 +1,1 @@
+m3_RES_min_Device_322,1,m3res

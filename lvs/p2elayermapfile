@@ -1,4 +1,1 @@
 M3 p_rm3_resistive,np_rm3_resistive
-M2 p_rm2_resistive,np_rm2_resistive
-M1 p_rm1_resistive,np_rm1_resistive
-PC p_rpc_model,p_rpc_resistive,np_rpc_model,np_rpc_resistive

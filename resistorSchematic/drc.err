@@ -1,0 +1,66 @@
+================================================================================
+Rule No. 2 : # INFO: I/O PADS = WIREBOND #
+
+Real Error Count : 1; Flat Error Count : 1
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : resistorSchematic layout Final_Project_5020
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                  0.280       -5.140       0.560       -0.980
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        0.280     -5.140      0.560     -0.980
+
+================================================================================
+Rule No. 144 : WARNING: GridCheck NOT RUN!
+
+Real Error Count : 1; Flat Error Count : 1
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : resistorSchematic layout Final_Project_5020
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                  0.280       -5.140       0.560       -0.980
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        0.280     -5.140      0.560     -0.980
+
+================================================================================
+Rule No. 1355 : # INFO: CMRF-7sf ASSURA DRC DECK (REV DATE 25/01/2005) #
+
+Real Error Count : 1; Flat Error Count : 1
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : resistorSchematic layout Final_Project_5020
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                  0.280       -5.140       0.560       -0.980
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        0.280     -5.140      0.560     -0.980
+

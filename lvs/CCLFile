@@ -1,0 +1,48 @@
+#
+# OPTION COMMAND FILE created by Cadence Extraction QRC Version 9.1.4-p008
+#
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "SUB"
+extract \
+	 -selection "all" \
+	 -type "rc_decoupled"
+extraction_setup \
+	 -array_vias_spacing auto \
+	 -max_fracture_length infinite \
+	 -max_fracture_length_unit "MICRONS" \
+	 -max_via_array_size \
+		"auto" \
+	 -net_name_space "LAYOUT"
+filter_res \
+	 -min_res 0.001
+input_db -type assura \
+	 -design_cell_name "resistorSchematic layout Final_Project_5020" \
+	 -directory_name "/rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020" \
+	 -format "DFII" \
+	 -hierarchy_delimiter "/" \
+	 -library_definitions_file "/rcc4/homes/brown.4414/cadence/ECE5021/cds.lib" \
+	 -run_name "lvs"
+output_db -type dspf \
+	 -busbit_delimiter "\[\]" \
+	 -disable_instances false \
+	 -hierarchy_delimiter "/" \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "false" \
+	 -include_parasitic_res_model "false" \
+	 -include_parasitic_res_width false \
+	 -include_parasitic_res_width_drawn false \
+	 -include_res_model "false" \
+	 -sub_node_char "#"
+output_setup \
+	 -directory_name "/rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020" \
+	 -file_name "/rcc4/homes/brown.4414/cadence/ECE5021" \
+	 -net_name_space "SCHEMATIC" \
+	 -temporary_directory_name "lvs"
+process_technology \
+	 -technology_library_file "/rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/lvs/_auto_qrc_techlib.defs" \
+	 -technology_name "_auto_qrc_tech" \
+	 -temperature \
+		25.0
+
+

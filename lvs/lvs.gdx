@@ -1,15 +1,5 @@
 # 0
-subc(Generic): subc(Generic)
-# 0
-pfet(Generic): pfet(Generic)
-# 0
-nfet(Generic): nfet(Generic)
-# 7
-CMOS_SRAM_CELL schematic Final_Project_5020: CMOS_SRAM_CELL layout Final_Project_5020
-D M6 avD20_4
-D M5 avD20_2
-D M1 avD20_1
-D M3 avD20_3
-D M2 avD41_1
-D M4 avD41_2
-D I0 avD206_1
+lvsres(Generic): lvsres(Generic)
+# 1
+resistorSchematic schematic Final_Project_5020: resistorSchematic layout Final_Project_5020
+D R0 avD322_1

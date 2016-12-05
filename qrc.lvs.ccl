@@ -17,7 +17,7 @@ extraction_setup \
 filter_res \
 	 -min_res 0.001
 input_db -type assura \
-	 -design_cell_name "CMOS_SRAM_CELL layout Final_Project_5020" \
+	 -design_cell_name "resistorSchematic layout Final_Project_5020" \
 	 -directory_name "/rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020" \
 	 -format "DFII" \
 	 -hierarchy_delimiter "/" \
@@ -35,7 +35,7 @@ output_db -type dspf \
 	 -include_res_model "false" \
 	 -sub_node_char "#"
 output_setup \
-	 -file_name "/rcc4/homes/brown.4414/cadence/ECE5021/rc_actual.dspf" \
+	 -file_name "/rcc4/homes/brown.4414/cadence/ECE5021" \
 	 -net_name_space "SCHEMATIC" \
 	 -temporary_directory_name "lvs"
 process_technology \

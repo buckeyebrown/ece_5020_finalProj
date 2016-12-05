@@ -1,1 +1,6 @@
-NO WARNINGS or ERRORS found in Assura NVN Run Log file
+Assura Errors & Warnings Search (PLEASE CAREFULLY REVIEW THESE MESSAGES)
+================================================================================
+WARNINGS & ERRORS found in Assura NVN Run Log file
+--------------------------------------------------------------------------------
+*ERROR* could not open output file '/rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/lvs.lvsdb/status'.
+Run terminated.

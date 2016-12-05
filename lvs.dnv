@@ -1,8 +1,8 @@
 vuiLVSdebugRunInfo = list( nil
    'layoutLibrary "Final_Project_5020"
-   'layoutCell "CMOS_SRAM_CELL"
+   'layoutCell "resistorSchematic"
    'layoutView "layout"
    'schematicLibrary "Final_Project_5020"
-   'schematicCell "CMOS_SRAM_CELL"
+   'schematicCell "resistorSchematic"
    'schematicView "schematic"
 )

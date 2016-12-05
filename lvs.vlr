@@ -652,7 +652,7 @@ procedure( setModelName(dbId)
 avSimName = "auLvs"
 avDisableWildcardPG = nil
 avLibName  = "Final_Project_5020"
-avCellName = "CMOS_SRAM_CELL"
+avCellName = "resistorSchematic"
 avViewName = "schematic"
 avViewList = "auLvs schematic symbol"
 avStopList = "auLvs"

@@ -1,26 +1,8 @@
 # 2
-subc(Generic): subc(Generic)
-= SUBCON SUBCON B
-= sub sub B
-# 4
-pfet(Generic): pfet(Generic)
-= G G B
-= S S B
-= D D B
-= B B B
-# 4
-nfet(Generic): nfet(Generic)
-= G G B
-= S S B
-= D D B
-= B B B
-# 8
-CMOS_SRAM_CELL schematic Final_Project_5020: CMOS_SRAM_CELL layout Final_Project_5020
-= net5 avC7
-= net1 avC8
-= VDD VDD I
-= GND GND I
-= BL BL B
-= NOTBL NOTBL B
-= WL WL B
-= SUB SUB B
+lvsres(Generic): lvsres(Generic)
+= MINUS MINUS B
+= PLUS PLUS B
+# 2
+resistorSchematic schematic Final_Project_5020: resistorSchematic layout Final_Project_5020
+= IN IN B
+= OUT OUT B

@@ -1,0 +1,49 @@
+avParameters(
+	?cellName "resistorSchematic"
+	?viewName "layout"
+	?inputLayout ( "DFII" "Final_Project_5020" )
+	?cdslib "/rcc4/homes/brown.4414/cadence/ECE5021/cds.lib"
+	?runName "lvs"
+	?workingDirectory "/rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020"
+	?techLib "/rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/lvs/_auto_qrc_techlib.defs"
+	?technology "_auto_qrc_tech"
+
+)
+rcxParameters(
+	?capCouplingFactor 1.0
+	?capGround "SUB"
+	?arrayViasSpacing "auto"
+	?maxFractureLength "infinite"
+	?fractureLengthUnits "MICRONS"
+	?maxMergedViaSize "auto"
+	?netNameSpace "layout"
+	?minR 0.001
+	?hierarchyDelimiter "/"
+	?lvsSource "assura"
+	?busBit "[]"
+	?instancesOff nil
+	?hierarchyDelimiter "/"
+	?capModels "no"
+	?parasiticCapModels "no"
+	?parasiticResModels "no"
+	?parasiticResWidth nil
+	?parasiticResWidthDrawn nil
+	?resModels "no"
+	?subNodeChar "#"
+	?xdspf t
+	?outputFormat "spice"
+	?lvsExtractedCellView nil
+	?output "/rcc4/homes/brown.4414/cadence/ECE5021"
+	?outputNetNameSpace "schematic"
+	?runName "lvs"
+	?tempdir "/rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/lvs/rcx_temp"
+	?rcxSetupDir "/opt/local/cadence/design_kits/IBM/IBM_CMOS/IBM_PDK/cmrf7sf/V2.0.1.0AM"
+	?temperature ( 25.0 )
+	?type "full"
+	?extract "both"
+	?capExtractMode "decoupled"
+
+)
+(avRCX)
+
+
