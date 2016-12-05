@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Mon Dec  5 16:09:44 2016 EST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/Bit_Slice_model/schematic/sch.oa.cdslck
-TimeEditLocked                 Mon Dec  5 16:24:15 2016 EST
+FilePathUsedToEditLock         /rcc4/homes/brown.4414/cadence/ECE5021/Final_Project_5020/SRAM_Column/schematic/sch.oa.cdslck
+TimeEditLocked                 Mon Dec  5 16:36:14 2016 EST
